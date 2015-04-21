@@ -4,8 +4,8 @@ namespace Canvas
 {
 	public struct Location
 	{
-		private int x;
-		private int y;
+		private readonly int x;
+		private readonly int y;
 
 		public int X { get{ return x; } }
 

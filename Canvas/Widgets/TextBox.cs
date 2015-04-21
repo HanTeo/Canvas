@@ -4,9 +4,9 @@ namespace Canvas
 {
 	public struct TextBox : IRectangle, ITextElement, IWidget
 	{
-		private int height;
-		private int width;
-		private string text;
+		private readonly int height;
+		private readonly int width;
+		private readonly string text;
 		private Location? location;
 
 		public TextBox(int height, int width, string text)
